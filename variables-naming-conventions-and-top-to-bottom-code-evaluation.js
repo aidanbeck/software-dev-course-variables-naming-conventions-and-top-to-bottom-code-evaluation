@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let name = "Alice";
+let customer = "Alice";
+let boughtOrSold = "sold";
 let itemCount = 5;
+let item = "apples";
 let price = 20;
-let sentance = name + " bought " + itemCount + " items for $" + price + ".";
+let sentance = customer + " " + boughtOrSold + " " + itemCount + " " + item + " for $" + price + ".";
 
 console.log(sentance);
